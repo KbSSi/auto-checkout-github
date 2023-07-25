@@ -3,3 +3,6 @@
 
 因为工作关系，本地电脑可能会同时关联多个github仓库，
 此自动化脚本用ssh-agent来管理本地电脑的不同私钥，从而切换github仓库
+
+使用：
+bash checkout-github.sh github用户名  github邮箱  github绑定的私钥名称
